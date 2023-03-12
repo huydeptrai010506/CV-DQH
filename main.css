@@ -1,0 +1,50 @@
+
+*{
+    font-family: 'Jost', sans-serif;
+}
+body{
+    background: url(back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#content {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+}
+.content--img img{
+    height: auto;
+    width: 700px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.social_media{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 100px;
+}
+
+.social_media a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: ease .3s;
+    color: black;
+}
+
+.social_media a:hover {
+    color: #fff;
+    transform: scale(1.1);
+    background: #f75023;
+}
